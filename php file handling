@@ -1,0 +1,8 @@
+<?php
+$file=fopen("shalabh.txt","w");
+if($file== true){
+echo("newfile");
+exit();
+}
+fclose($file);
+?>
